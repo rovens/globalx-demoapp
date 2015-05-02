@@ -1,0 +1,5 @@
+<div>
+    <div ng-repeat="animal in animals" ng-class="{'alert': true, 'alert-success': animal.eatsHumans == false, 'alert-eaty': animal.eatsHumans == true}">
+        {{animal.name}} <span ng-if="animal.eatsHumans">: This animal will eat you if possible</span>
+    </div>
+</div>
