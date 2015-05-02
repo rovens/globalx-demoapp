@@ -2,8 +2,8 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'Hello World',
-  description: 'The nodejs.org example web server.',
+  name:'gsf-animal-info',
+  description: 'A microsite providing crucial information about animals.',
   script: 'server.js'
 });
 

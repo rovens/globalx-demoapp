@@ -2,7 +2,7 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'Hello World',
+  name:'gsf-animal-info',
   script: require('path').join(__dirname,'server.js')
 });
 
