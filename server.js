@@ -1,13 +1,3 @@
-// var express = require('express');
-// //var server = express.createServer();
-// // express.createServer()  is deprecated. 
-// var server = express(); // better instead
-// server.configure(function(){
-//   server.use(express.static(__dirname + '/dist'));
-// });
-
-// server.listen(3000);
-
 var express=require('express');
 var app=express();
 app.use(express.static(__dirname + '/dist'));
